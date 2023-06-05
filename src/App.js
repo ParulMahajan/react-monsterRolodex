@@ -13,7 +13,7 @@ const App = () => {
   
    // fetch monsters json
   useEffect( () => {
-    console.log("fetch monsters json");
+    console.log("fetch monsters jsonn");
     fetch("https://jsonplaceholder.typicode.com/users")
     .then((response) => response.json())
     .then( (users) => setMonsters(users) );
